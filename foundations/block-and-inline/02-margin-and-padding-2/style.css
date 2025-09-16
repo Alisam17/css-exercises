@@ -7,34 +7,32 @@ body {
   width: 400px;
   background: #fff;
   margin: 16px auto;
-  padding: 8px;
-  
+  padding: 8px; /*step 1*/
 }
 
 .title {
   background: #e3f4ff;
-  font-size: 16px;
-  padding: 8px;
+  padding: 8px; /*step4*/
+  font-size: 16px; /*step3*/
+  margin-bottom: 8px; /*step2*/
 }
 
 .content {
   background: #e3f4ff;
-  padding: 16px 8px;
-  margin-top: 8px;
+  padding: 16px 8px; /*step5*/
+  margin-bottom: 8px; /*step2*/
 }
 
 .button-container {
   background: #e3f4ff;
-  text-align: center;
-  padding: 8px;
-  margin-top: 8px;
+  padding: 8px; /*step6*/
+  text-align: center; /*step6*/
 }
 
 button {
   background: white;
   border: 1px solid #eee;
-  display: block;
-  padding: 8px 24px;
-  text-align: center;
-  margin:auto
+  padding: 8px 24px; /*step8*/
+  display: block; /*step7*/
+  margin: 0 auto; /*step7*/
 }
