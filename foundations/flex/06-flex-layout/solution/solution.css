@@ -57,6 +57,12 @@ a {
   padding: 16px;
 }
 
+.content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
 .footer {
   background: #eee;
 }
